@@ -30,12 +30,12 @@ while [ "$opcion" -ne "6" ]; do
 		3)	
             /proyecto/Mantenimiento/menuMantenimiento.sh 2>  archivo3.txt
 			;;
-        4)      
-            /proyecto/Apartado3/menu.sh 2> archivo4.txt
-            ;;
-        5)
-            /proyecto/funcionesavanzadas/funcionesavanzadas.sh 2> archivo5.txt
-            ;;          
+        	4)      
+            		/proyecto/Apartado3/menu.sh 2> archivo4.txt
+            		;;
+       		5)
+            		/proyecto/funcionesavanzadas/funcionesavanzadas.sh 2> archivo5.txt
+            		;;          
 		6)    
 			dialog --title "Cerrando sistema" --msgbox "Gracias por usar el sistema de reportes" 0 0
 			clear			
