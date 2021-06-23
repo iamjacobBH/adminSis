@@ -37,7 +37,7 @@ while [ "$opcion" -ne "6" ]; do
             		/proyecto/funcionesavanzadas/funcionesavanzadas.sh 2> archivo5.txt
             		;;          
 		6)    
-			dialog --title "Cerrando sistema" --msgbox "Gracias por usar el sistema de reportes" 0 0
+			dialog --title "Cerrando sistema" --msgbox "Gracias por usar el sistema" 0 0
 			clear			
 		esac
  
