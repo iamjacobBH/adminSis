@@ -9,4 +9,6 @@ Indicaciones para la ejecución del Sistema
 3. Extraer todo en la carpeta creada anteriormente.
 5. Vover a cambiar los permisos como en el punto 2 para evitar problemas.
 6. Instalar los paquetes dialog y at; son necesarios para poder ejecutar el proyecto de manera correcta.
-7. Se sugiere crear una carpeta para colocar los respaldos en ella.
+7. Se debe crear una carpeta en raíz con el nombre de respaldos.
+
+    sudo mkdir /respaldos
